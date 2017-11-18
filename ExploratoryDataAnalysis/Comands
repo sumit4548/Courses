@@ -1,0 +1,25 @@
+head(pollution)
+--> to see first few rows from dataset.
+
+Dim(pollution)
+-- Show Dimensions
+
+
+summary(pollution$pm25)
+-- Show Summery of data.
+
+boxplot(ppm,col="blue")
+-- Boxplot with color = blue.
+
+hist(ppm, col = "green")
+-- Histomgram with color.
+
+rug(ppm)
+-- to Draw rug.
+
+
+par(family="mono")
+-- to change font 
+
+abline(h=12 , lwd=2 , lty=2)
+-- hirozontal dotted line
